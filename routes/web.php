@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::get('/something', function () {
     return 1;
 });
+Route::get('/user/{id}', 'UserController@show');
